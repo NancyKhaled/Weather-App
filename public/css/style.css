@@ -1,0 +1,101 @@
+/*general*/
+* {
+    font-family: 'Nunito',
+        'sans-serif';
+    font-family: 'Varela Round',
+        'sans-serif';
+}
+
+body {
+    background: linear-gradient(rgba(225, 225, 225, 0.3), rgba(225, 225, 225, 0.3)),
+    url('../img/weather.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#form {
+    width: 60%;
+    margin: 20px auto;
+}
+
+#form label {
+    text-transform: capitalize;
+    margin: 15px auto 20px auto;
+    color: rgb(4, 4, 63);
+}
+
+#form .btn {
+    color: #fff;
+    text-transform: capitalize;
+    margin: 15px auto 20px auto;
+    background-color: rgb(81, 81, 204);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+.content p {
+    width: 60%;
+    margin: 15px auto;
+    text-transform: capitalize;
+    color: rgb(4, 4, 63);
+    font-size: 20px;
+}
+
+/*404 page*/
+.error-container{
+    margin-top: 50px;
+}
+
+.error-container .error-title,
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px auto;
+    color: rgb(4, 4, 63);
+}
+
+.error-container .error-name {
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: crimson;
+    margin: 10px auto;
+}
+
+.error-container a {
+    width: 200px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: rgb(81, 81, 204);
+    border-radius:10px;
+    padding: 10px;
+    margin: 10px auto;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+/*footer*/
+.footer {
+    text-align: center;
+    background-color: rgb(81, 81, 204);
+    color: #fff;
+    padding: 30px 0;
+    font-size: 12px;
+    text-transform: capitalize;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
